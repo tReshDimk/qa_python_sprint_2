@@ -1,7 +1,11 @@
 class HobbitsPriorityStatus:
-
     def __init__(self):
-        self.hobbits_miles = {'Фродо': 505, 'Сэм': 499, 'Мэри': 350, 'Пиппин': 350}
+        self.hobbits_miles = {
+            'Фродо': 505,
+            'Сэм': 499,
+            'Мэри': 350,
+            'Пиппин': 350
+        }
 
     def add_new_hobbit(self, hobbit_name):
         self.hobbits_miles[hobbit_name] = 0
